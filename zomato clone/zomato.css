@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main{
+    height: 450px;
+    width: 100%;
+    background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.textwhite{
+   color: white;
+}
+
+.nav{
+    height: 80px;
+    width: 100%;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    align-items:center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+   
+}
+.right{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.def{
+    font-size: 35px;
+    margin-top: 20px;
+}
+.search{
+    height: 40px;
+    width: 700px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 23px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.fi-sr-marker{
+    color:red;
+font-size: 25px;
+}
+.fi-rr-search{
+    color: rgb(46, 46, 46);
+    font-size: 20px;
+}
+.city{
+    height: 100%;
+    width: 200px;
+    font-size: 20px;
+    border: none;
+}
+.sep{
+    color: rgb(10, 10, 10);
+    font-weight: 200;
+    padding-right: 20px;
+}
+.dish{
+    margin-left: 10px;
+    height: 100%;
+    width: 350px;
+    border: none;
+}
+.dish:focus{
+    outline: none;
+}
+.city:focus{
+    outline: none;
+}
+.card{
+    height: 200px;
+    width: 350px;
+    border: 0.1px solid rgb(211, 208, 208);
+    border-radius: 15px;
+    margin-top:  30px;
+    overflow: hidden;
+    transition: all 0.2s linear;
+}
+.cardcontainer{
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.card img{
+    height: 75%;
+    width: 100%;
+
+}
+.card:hover{
+    transform: scale(1.1);
+    
+}
